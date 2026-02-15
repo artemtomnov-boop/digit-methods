@@ -6,7 +6,7 @@ epselant = 1
 a = 0.5
 b = 1
 while epselant > 0.001:
-  c = (a+b)/2
+  c = (a + b)/2
   if f(a) * f(c) < 0:
     b = c
   else:
